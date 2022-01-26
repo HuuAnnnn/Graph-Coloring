@@ -32,9 +32,6 @@ def get_degree_of_each_node(adj_matrix):
 def sort_by_degree(nodes_degree):
     return dict(sorted(nodes_degree.items(), key=lambda x:x[1], reverse=True)) 
 
-def color_node(net, node, color):
-    net.get_node(node)['color'] = color
-
 def visualization_graph_colored(graph, labels=[]):
     nodes = create_nodes(len(graph))
     edges = create_edges(graph)
