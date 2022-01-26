@@ -1,6 +1,5 @@
 import argparse
 from pyvis.network import Network
-import argparse
 
 def create_nodes(size: int):
     nodes = []
@@ -58,10 +57,6 @@ def get_node_is_not_adjacency_of(node, adj_matrix):
             list_nodes.append(i)
 
     return list_nodes
-
-def get_all_nodes_attributes(graph, adj_matrix):
-    for i in range(len(adj_matrix)):
-        print(graph.get_node(chr(97+i)))
 
 def is_exist_adj_colored_node(colored, node, adj_matrix):
     if colored:
