@@ -30,7 +30,7 @@ Chạy chương trình
 ```python
 python Graph_coloring.py -p file_name -l labels
 ```
-> -p: flag bắt buộc (Đường dẫn đến file chứa ma trận kề).
+> -p: flag bắt buộc (Đường dẫn đến file chứa ma trận kề).<br>
 > -l: flag tùy chọn (Danh sách nhãn cho các đỉnh, số lượng nhãn phải bằng số lượng đỉnh).
 
 Chạy chương trình với ví dụ
