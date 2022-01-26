@@ -1,6 +1,5 @@
 import argparse
 from pyvis.network import Network
-import argparse
 
 def create_nodes(size: int):
     nodes = []
